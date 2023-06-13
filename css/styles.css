@@ -259,3 +259,74 @@ footer input, footer textarea {
 footer .detail {
   font-weight: bold;
 }
+
+/* responsivo celulares*/ 
+@media(max-width: 450px) {
+  /* geral*/
+  p, input, textarea {
+    font-size:1.2rem;
+  }
+  
+  /*navbar*/
+  #navbar h2 {
+    display: none;
+  }
+  
+  #navbar img {
+    top: 9px;
+  }
+  
+  #navbar ul {
+  margin-top: 1.1rem;
+  }
+  
+  #navbar-list li a {
+    font-size:1.2rem;
+  }
+  
+  /*banner*/
+  #main-banner{
+    height: 40vh;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+  }
+  
+  #banner-info {
+  width: 60%;
+  }
+  
+  #banner-info p {
+    margin: 0;
+    width: auto;
+  }
+  
+  /*about*/
+  #about-section {
+    padding: 2rem;
+    height: auto;
+    padding-bottom: 50px;
+  }
+  
+  /*beneficios*/
+  #beneficios-section {
+    margin-top: -35px;
+    width: 90%;
+  }
+  
+  #beneficios-section .constainer{
+    flex-direction: column;
+  }
+  
+  /*equipe*/
+  .equipe-constainer {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  
+  .equipe-box {
+    margin-bottom: 2rem;
+    flex: 1 1 300px;
+  }
+}
+
+
