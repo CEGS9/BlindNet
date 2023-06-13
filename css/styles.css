@@ -1,0 +1,261 @@
+/* geral */
+body, p, h1, h2, input, textarea {
+  margin: 0;
+  font-family: Roboto;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+/* navbar */
+#navbar {
+  background-color: #5f178f;
+  color: #f3ecec;
+  padding: 0 15px;
+  height: 60px;
+}
+
+#navbar h2, #navbar ul, #navbar-list li,#navbar nav {
+  display: inline-block;
+}
+
+#navbar h2 {
+  margin: 0;
+  line-height: 60px;
+  margin-left: 55px;
+}
+
+#navbar img {
+  height: 40px;
+  position: absolute;
+  top: 10px;
+}
+
+#navbar nav {
+  float: right;
+}
+
+#navbar ul {
+  margin-top: 22px;
+}
+
+#navbar li {
+  margin: 0 10px;
+}
+
+#navbar-list li a {
+  text-decoration: none;
+  color: #12bcff;
+}
+
+#navbar-list li a:hover {
+  border-bottom: 1px solid #FFF;
+}
+
+/* banner */
+#main-banner {
+  height: 70vh;
+  background-image: url('../img/bg-blindnet.jpg');
+  background-size: cover;
+  padding-top: 15vh;
+}
+
+#banner-info {
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: #ffffff;
+  padding: 50px;
+}
+
+#banner-info img {
+  height: 120px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#banner-info p {
+  background-color: #1cacff;
+  font-weight: bold;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px;
+}
+
+/* about */
+
+#about-section {
+  text-align: center;
+  background-image: linear-gradient(to bottom, #37005a, #412883, #444aac, #3f6cd6, #2990ff);
+  color: #FFF;
+  padding-top: 50px;
+  height: 350px;
+}
+
+#about-section h2 {
+  margin-bottom: 20px;
+}
+
+#about-section p {
+  max-width: 650px;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 30px;
+}
+
+/* beneficios */
+
+#beneficios-section {
+  margin-top: -100px;
+  background-color: #FFF;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #DDD;
+  border-radius: 10px;
+}
+
+#beneficios-section .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.beneficios-container {
+  flex: 1 1 1;
+  text-align: center;
+  padding: 60px 25px;
+}
+
+.central {
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+}
+
+.beneficios-container h3 {
+  color: #420070;
+  font-size: 20px;
+}
+
+.beneficios-container img {
+  height: 60px;
+  padding: 15px;
+  margin-bottom: 25px;
+
+}
+
+.beneficios-container .subtitle {
+  font-weight: bold;
+  color: #520072;
+  margin-top: 50px;
+  margin-bottom: 15px;;
+}
+
+.beneficios-container p {
+  line-height: 25px
+}
+
+/* equipe */
+
+#equipe-section {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#equipe-section h2 {
+  color: #3900bd;
+  margin-bottom: 30px;
+}
+
+#equipe-section p {
+  margin-bottom: 50px;
+}
+
+#equipe-section a {
+  font-weight: bold;
+  color: #1100ad;
+}
+
+.equipe-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.equipe-box {
+  flex: 1 1 200px;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 300px;
+  background-size: cover;
+  border-right: 2px solid #410294;
+  border-bottom: 2px solid #270153;
+}
+
+.proj1 {
+  background-image: url('../img/proj1.png');
+}
+
+.proj2 {
+  background-image: url('../img/proj2.png');
+}
+
+.proj3 {
+  background-image: url('../img/proj3.png');
+}
+
+.proj4 {
+  background-image: url('../img/proj4.png');
+}
+
+.proj5 {
+  background-image: url('../img/proj5.png');
+}
+
+.proj6 {
+  background-image: url('../img/proj6.png');
+}
+
+/* footer */
+
+footer {
+  padding: 50px 0;
+  background-color: #3283fd;
+  color: #FFF;
+  text-align: center;
+}
+
+footer img {
+  height: 50px;
+  margin: 30px 0;
+}
+
+footer p {
+  margin-top: 25px;
+}
+
+footer form {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer input, footer textarea {
+  border: none;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  width: 100%;
+  display: block;
+}
+
+footer .detail {
+  font-weight: bold;
+}
