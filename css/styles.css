@@ -264,7 +264,7 @@ footer .detail {
 @media(max-width: 450px) {
   /* geral*/
   p, input, textarea {
-    font-size:1.2rem;
+    font-size:1rem;
   }
   
   /*navbar*/
@@ -286,7 +286,7 @@ footer .detail {
   
   /*banner*/
   #main-banner{
-    height: 40vh;
+    height: 70vh;
     padding-top: 5vh;
     padding-bottom: 10vh;
   }
@@ -310,15 +310,15 @@ footer .detail {
   /*beneficios*/
   #beneficios-section {
     margin-top: -35px;
-    width: 90%;
+    width: 50%;
   }
   
-  #beneficios-section .constainer{
+  #beneficios-section .container{
     flex-direction: column;
   }
   
   /*equipe*/
-  .equipe-constainer {
+  .equipe-container {
     flex-direction: column;
     margin-bottom: 0;
   }
@@ -328,5 +328,3 @@ footer .detail {
     flex: 1 1 300px;
   }
 }
-
-
